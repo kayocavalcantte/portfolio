@@ -107,15 +107,15 @@ aside h1{
 }
 
 #projeto{
-    margin: 50px auto;
+    margin: 40px auto;
     text-align: center;
     font-size: 1.2rem;
 }
 #imageProjects{
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 40px;
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 20px;
 }
  #projeto h4{
     padding-bottom: 10px;
