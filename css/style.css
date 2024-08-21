@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "rubik", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #2c2c2c
+}
+
+
+section,article,aside{
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 3rem;
+
+}
+h2{
+    background: linear-gradient(270deg, rgb(9, 211, 110) 0%, rgb(40, 104, 107) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+}
+.redesSociais{
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#social{
+    width: 3%;
+    height: 3%;
+}
+article{
+    height: 80vh;
+}
+article h2{
+    text-align: center;
+    margin: 20px;  
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+
+
+}	
+
+#profile{
+    width: 400px;
+    height: 400px;
+   
+}
+article p{
+    justify-content: center;
+    text-align: justify;
+    margin: 20px;
+    width: 500px;
+}
+
+aside{
+    margin: 20px auto;
+    height: 90vh;
+    padding: 50PX;
+    margin-bottom: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #434343fa;
+    border-radius: 40px;
+    box-shadow: #080808fa 6px 6px 80px 8px;
+}
+
+aside h1{
+    text-align: center;
+    /* margin: 20px; */
+    background: linear-gradient(270deg, rgb(6, 114, 60) 0%, rgb(32, 171, 178) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#projeto{
+    margin: 50px auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#imageProjects{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 40px;
+}
+ #projeto h4{
+    padding-bottom: 10px;
+    
+
+ }
+
+ button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 20px;
+    width: 120px;
+    font-size: 1.21rem;
+    transition: 0.5s;
+ }
+ button:hover{
+    background-color: #2c2c2c;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 1.2rem;
+    transition: 0.5s;
+ }
+/* #projeto p{
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    font-size: 1.2rem;
+}  */
