@@ -125,6 +125,21 @@ aside h1{
 
  }
 
+ #projeto p{
+    text-align: center;
+    margin: 10px;
+    font-size: 1rem;
+ }
+
+ #curriculo{
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
  button{
     background-color: white;
     color: black;
@@ -223,7 +238,7 @@ aside h1{
     aside{
         margin: 20% auto;
         margin-bottom: 20px;
-        height: 100vh;
+        height: 100%;
         padding: 20PX;
     }
 
@@ -239,12 +254,13 @@ aside h1{
         font-size: 1rem;
         margin: 2% auto;
         padding: 10px;
+       
     }
     #imageProjects{
         /* width: 450px;
         height: 250px; */
         width: 80%;
-        height: 70%;
+        height: 100%;
         margin: 10px;
         border-radius: 20px;
     }
