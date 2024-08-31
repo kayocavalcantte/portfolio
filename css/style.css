@@ -157,11 +157,10 @@ aside h1{
  button:hover{
     background-color: #2c2c2c;
     color: white;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     cursor: pointer;
-    margin: 20px;
-    font-size: 1.2rem;
+    margin: 15px;
     transition: 0.5s;
  }
 /* #projeto p{
@@ -211,6 +210,8 @@ aside h1{
     
     article{
         height: 90vh;
+        align-items: center;
+        margin: auto;
     }
 
     .container{
@@ -231,7 +232,10 @@ aside h1{
     }
     
     #profile{
-        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 90%;
         height: 90%;
         margin-top: 10px;
     }
