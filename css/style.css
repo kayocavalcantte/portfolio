@@ -83,7 +83,7 @@ article p{
 
 aside{
     margin: 20px auto;
-    height: 90vh;
+    height: 90%;
     padding: 50PX;
     margin-bottom: 50px;
     text-align: center;
@@ -102,9 +102,11 @@ aside h1{
 }
 
 .projetos{
-    display: flex;
-    justify-content: center;
-    
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas com largura igual */
+  gap: 10px;
 }
 
 #projeto{
@@ -163,6 +165,31 @@ aside h1{
     margin: 15px;
     transition: 0.5s;
  }
+
+ .skills {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+.skills h1{
+    background: linear-gradient(270deg, rgb(6, 114, 60) 0%, rgb(32, 171, 178) 102.13%) text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill_container{
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.skill_container p{
+    font-size: 1.3rem;
+    border-bottom: 2px solid rgb(108, 108, 108);
+    padding-bottom: 20px;
+
+}
 /* #projeto p{
     text-align: center;
     margin: 20px;
@@ -209,7 +236,7 @@ aside h1{
     }
     
     article{
-        height: 90vh;
+        height: 90%;
         align-items: center;
         margin: auto;
     }
